@@ -14,7 +14,7 @@ def location(weather)
 	  :temperature_farenheit => [90, 75, 60]
 	}
 end
-location(LA)
+location("LA")
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
